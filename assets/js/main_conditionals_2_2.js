@@ -5,7 +5,9 @@
         let value = document.querySelector("#slidebar").value   
         let output1 = document.querySelector(".healthConcern")
         let output2 = document.querySelector(".healthEffect")
+        let qualitiy = document.querySelector(".qualitiyNum")
         console.log(value);
+        qualitiy.innerHTML = value
         
         if(value > 0 && value <= 50) {
             output1.innerHTML = "Good"
