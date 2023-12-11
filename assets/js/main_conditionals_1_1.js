@@ -3,9 +3,9 @@ function checkAge() {
     let output = document.querySelector("#message")
     if(age >= 18) {
         output.innerHTML = "Du bist Volljährig"
-        console.log(false);
+        console.log(true);
     } else {
         output.innerHTML = "Du bist Minderjährig"
-        console.log(true);
+        console.log(false);
     }
 }

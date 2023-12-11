@@ -8,7 +8,9 @@ function checkWeather() {
         output.innerHTML = "gut"
     } else if (weather >= 3 && weather <= 5) {
         output.innerHTML = "okay"
+    } else if (weather >= 0 && weather <= 2) {
+        output.innerHTML = "schecht"
     } else {
-        output.innerHTML = "schlecht"
+        output.innerHTML = "Wetter im Arsch"
     }
 }
