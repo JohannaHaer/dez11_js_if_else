@@ -7,5 +7,8 @@ function calc(number) {
     }
 }
 
-calc(100)
+calc(35)
 
+calc(74)
+
+calc(123)
